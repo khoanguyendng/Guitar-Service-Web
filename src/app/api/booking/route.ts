@@ -3,12 +3,11 @@ import { createAdminClient } from "@/lib/supabase/server";
 import { bookingSchema } from "@/lib/validations";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const data = bookingSchema.parse(body);
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     const supabase = await createAdminClient();
     const { data: booking, error } = await supabase
