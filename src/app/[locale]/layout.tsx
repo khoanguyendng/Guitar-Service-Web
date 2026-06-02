@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n-config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { Toaster } from "@/components/ui/sonner";
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -23,6 +24,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <Toaster richColors position="top-right" />
       <Header />
       <main>{children}</main>
       <Footer />

@@ -8,10 +8,10 @@
     "contact": "Liên hệ"
   },
   "hero": {
-    "badge": "Thành lập 2000 · Hà Nội",
+    "badge": "Thành lập 2026 · Thành phố Hồ Chí Minh",
     "line1": "Thợ Thủ Công",
     "line2": "Guitar Bậc Thầy",
-    "subtitle": "Hơn 20 năm hồi sinh âm thanh hoàn hảo cho từng cây đàn",
+    "subtitle": "Mang lại cảm giác chơi phù hợp nhất cho chủ nhân của từng cây đàn",
     "cta_booking": "Đặt lịch ngay",
     "cta_services": "Xem dịch vụ",
     "scroll": "Cuộn xuống"
@@ -39,7 +39,7 @@
     "badge": "Câu chuyện của chúng tôi",
     "title": "Đam mê & Tay nghề",
     "subtitle": "Hơn hai thập kỷ phục vụ những người yêu nhạc",
-    "description": "Được thành lập vào năm 2000, Guitar Service ra đời từ tình yêu thuần túy với âm nhạc và nghệ thuật thủ công. Chúng tôi tin rằng mỗi cây đàn đều có một câu chuyện, và sứ mệnh của chúng tôi là giúp những câu chuyện ấy tiếp tục ngân vang.",
+    "description": "Được thành lập vào năm 2026, Guitar Service ra đời từ tình yêu thuần túy với âm nhạc và nghệ thuật thủ công. Chúng tôi tin rằng mỗi cây đàn đều có một câu chuyện, và sứ mệnh của chúng tôi là giúp những câu chuyện ấy tiếp tục ngân vang.",
     "description2": "Từ những bản nhạc blues da diết đến những nốt flamenco rực lửa, chúng tôi đã đồng hành cùng hàng nghìn nghệ sĩ trên hành trình tìm lại âm thanh hoàn hảo.",
     "years": "20+",
     "years_label": "Năm kinh nghiệm",
@@ -92,7 +92,7 @@
     "email_label": "Email",
     "email": "hello@guitarservice.vn",
     "hours_label": "Giờ làm việc",
-    "hours": "Thứ 2 – Thứ 7: 9:00 – 18:00",
+    "hours": "Thứ 2 – Chủ Nhật: 18:00 – 22:00",
     "cta": "Đặt lịch ngay",
     "zalo": "Nhắn Zalo"
   },
@@ -105,11 +105,11 @@
     "service_repair": "Sửa chữa",
     "service_restoration": "Phục hồi",
     "service_electronics": "Điện tử",
-    "copyright": "© 2025 Guitar Service. Bảo lưu mọi quyền.",
+    "copyright": "© 2026 Guitar Service. Bảo lưu mọi quyền.",
     "made_with": "Được tạo với tình yêu âm nhạc"
   },
   "chat": {
-    "placeholder": "Hỏi về dịch vụ, giá cả...",
+    "placeholder": "Hãy gõ vào đây những thắc mắc của bạn về giá cả, dịch vụ hoặc bất cứ điều gì liên quan đến đàn guitar. Chúng tôi sẽ trả lời bạn ngay lập tức!",
     "title": "Hỗ trợ trực tuyến"
   },
   "booking": {
@@ -132,5 +132,107 @@
     "save": "Lưu",
     "cancel": "Hủy",
     "confirm": "Xác nhận"
+    },
+  "service_types": {
+    "setup": "Setup & Điều chỉnh",
+    "repair": "Sửa chữa tổng quát",
+    "restoration": "Phục hồi đàn lâu năm",
+    "fret": "Mài & Thay fret",
+    "action": "Điều chỉnh action",
+    "intonation": "Điều chỉnh intonation",
+    "repaint": "Sơn lại",
+    "refinish": "Làm mới bề mặt",
+    "clean": "Vệ sinh & Bảo dưỡng",
+    "restring": "Thay dây",
+    "electronics": "Điện tử & Pickup",
+    "nut_saddle": "Nut & Saddle",
+    "other": "Khác"
+  },
+  "guitar_types": {
+    "acoustic": "Acoustic",
+    "classical": "Classic (Nylon)",
+    "electric": "Điện",
+    "stratocaster": "Stratocaster",
+    "les_paul": "Les Paul",
+    "sg": "SG",
+    "telecaster": "Telecaster",
+    "bass": "Bass",
+    "ukulele": "Ukulele",
+    "twelve_string": "12 dây",
+    "other": "Khác"
+  },
+  "gallery_page": {
+    "badge": "Bộ sưu tập",
+    "title": "Thư viện",
+    "subtitle": "Những tác phẩm tiêu biểu từ xưởng thủ công của chúng tôi",
+    "filter_all": "Tất cả",
+    "filter_acoustic": "Acoustic",
+    "filter_electric": "Điện",
+    "filter_repair": "Sửa chữa",
+    "filter_classic": "Classic"
+  },
+  "about_page": {
+    "hero_badge": "Về chúng tôi",
+    "hero_title": "Về chúng tôi",
+    "hero_subtitle": "Hành trình hơn hai thập kỷ gắn bó với âm nhạc và nghệ thuật thủ công",
+    "story_badge": "Lịch sử",
+    "story_title": "Nguồn gốc & Hành trình",
+    "story_p1": "Được thành lập năm 2000 tại căn xưởng nhỏ ở phố Huế, Guitar Service ra đời từ tình yêu thuần túy với âm nhạc và nghệ thuật thủ công truyền thống. Người sáng lập Nguyễn Văn Thành đã dành cả tuổi thanh xuân để học hỏi nghề mộc và kỹ thuật đàn từ những người thợ lành nghề nhất Hà Nội.",
+    "story_p2": "Hơn hai thập kỷ trôi qua, chúng tôi đã đồng hành cùng hàng nghìn nghệ sĩ — từ những học sinh tập đàn lần đầu đến các nhạc sĩ chuyên nghiệp — trong hành trình tìm lại âm thanh hoàn hảo cho từng cây đàn yêu quý. Mỗi cây đàn qua tay chúng tôi đều được trân trọng như một tác phẩm nghệ thuật.",
+    "mission_badge": "Sứ mệnh",
+    "mission_title": "Giá trị cốt lõi",
+    "value1_title": "Tỉ mỉ",
+    "value1_desc": "Từng chi tiết nhỏ nhất đều được chăm chút kỹ lưỡng. Chúng tôi không bao giờ thỏa hiệp với chất lượng, dù là công việc nhỏ nhất.",
+    "value2_title": "Trung thực",
+    "value2_desc": "Báo giá minh bạch, không phát sinh chi phí ẩn. Chúng tôi sẽ tư vấn thẳng thắn để bạn có quyết định tốt nhất cho cây đàn của mình.",
+    "value3_title": "Tận tâm",
+    "value3_desc": "Mỗi cây đàn đều có câu chuyện riêng. Chúng tôi lắng nghe, thấu hiểu và làm việc với tất cả tình yêu nghề để đem lại kết quả tốt nhất.",
+    "team_badge": "Đội ngũ",
+    "team_title": "Những người thợ lành nghề",
+    "member1_name": "Nguyễn Văn Thành",
+    "member1_role": "Người sáng lập & Thợ thủ công chính",
+    "member1_exp": "25 năm kinh nghiệm",
+    "member2_name": "Trần Quốc Bảo",
+    "member2_role": "Chuyên gia điện tử & Pickup",
+    "member2_exp": "15 năm kinh nghiệm",
+    "member3_name": "Lê Thị Minh",
+    "member3_role": "Chuyên gia phục hồi cổ",
+    "member3_exp": "12 năm kinh nghiệm"
+  },
+  "contact_page": {
+    "hero_badge": "Liên hệ",
+    "hero_title": "Gặp gỡ chúng tôi",
+    "hero_subtitle": "Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn trên hành trình âm nhạc",
+    "form_badge": "Gửi tin nhắn",
+    "form_title": "Liên hệ với chúng tôi",
+    "name_label": "Họ và tên",
+    "name_placeholder": "Nhập họ và tên của bạn",
+    "email_label": "Email",
+    "email_placeholder": "your@email.com",
+    "message_label": "Tin nhắn",
+    "message_placeholder": "Mô tả vấn đề hoặc câu hỏi của bạn...",
+    "submit": "Gửi tin nhắn",
+    "success": "Tin nhắn đã được gửi! Chúng tôi sẽ phản hồi sớm.",
+    "error": "Gửi thất bại. Vui lòng thử lại."
+  },
+  "login": {
+    "title": "Quản trị viên",
+    "subtitle": "Đăng nhập để quản lý hệ thống",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "submit": "Đăng nhập",
+    "error": "Email hoặc mật khẩu không đúng"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Câu hỏi thường gặp",
+    "q1": "Thời gian sửa chữa thường mất bao lâu?",
+    "a1": "Tùy thuộc vào loại dịch vụ. Setup & điều chỉnh thường hoàn thành trong 1-2 ngày. Sửa chữa tổng quát từ 3-5 ngày. Phục hồi đàn cổ có thể kéo dài 2-4 tuần tùy mức độ. Chúng tôi sẽ thông báo thời gian cụ thể sau khi kiểm tra đàn của bạn.",
+    "q2": "Chi phí sửa chữa có thể thay đổi sau khi báo giá không?",
+    "a2": "Không. Chúng tôi cam kết báo giá minh bạch và cố định. Sau khi kiểm tra đàn, chúng tôi sẽ đưa ra báo giá chi tiết và chỉ tiến hành sửa chữa khi bạn đồng ý. Không có phí phát sinh bất ngờ.",
+    "q3": "Có cần đặt lịch trước không hay có thể mang đàn đến trực tiếp?",
+    "a3": "Bạn có thể mang đàn đến trực tiếp trong giờ làm việc để được kiểm tra miễn phí. Tuy nhiên, đặt lịch trước giúp chúng tôi chuẩn bị tốt hơn và đảm bảo thợ phù hợp nhất sẽ tiếp nhận đàn của bạn.",
+    "q4": "Các loại đàn nào được hỗ trợ dịch vụ?",
+    "a4": "Chúng tôi phục vụ tất cả các loại đàn guitar: acoustic, classic (nylon), electric, bass, ukulele và guitar 12 dây. Với kinh nghiệm hơn 20 năm, chúng tôi cũng có khả năng phục hồi các đàn vintage và cổ điển có giá trị lịch sử."
   }
 }
