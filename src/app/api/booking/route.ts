@@ -13,7 +13,7 @@ export async function POST(request: NextRequest) {
     const supabase = await createAdminClient();
     const { data: booking, error } = await supabase
       .from("bookings")
-      .insert(data)
+      .insert(data as never)
       .select()
       .single();
 

@@ -88,7 +88,9 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
 ];
 
-const FILTER_LABELS: Record<FilterKey, string> = {
+type GalleryLabelKey = "filter_all" | "filter_acoustic" | "filter_electric" | "filter_repair" | "filter_classic";
+
+const FILTER_LABELS: Record<FilterKey, GalleryLabelKey> = {
   all: "filter_all",
   acoustic: "filter_acoustic",
   electric: "filter_electric",
@@ -127,7 +129,7 @@ export default function GalleryPage() {
                     : "border-border text-muted-foreground hover:border-secondary/50 hover:text-foreground"
                 }`}
               >
-                {t(FILTER_LABELS[key] as keyof ReturnType<typeof t>)}
+                {t(FILTER_LABELS[key])}
               </button>
             ))}
           </div>
