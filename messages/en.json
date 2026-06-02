@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "booking": "Book Now",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional Guitar Repair & Setup Service",
+    "subtitle": "Bringing the perfect sound back to your instrument",
+    "cta_booking": "Book Appointment",
+    "cta_services": "Our Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "setup": "Setup & Adjustment",
+    "setup_desc": "Action, intonation, and pickup adjustment for optimal tone",
+    "repair": "Repair",
+    "repair_desc": "Fret, nut, saddle, tuning machine and component repairs",
+    "restoration": "Restoration",
+    "restoration_desc": "Restore vintage instruments to original condition",
+    "electronics": "Electronics",
+    "electronics_desc": "Pickup, jack, potentiometer and wiring repairs"
+  },
+  "booking": {
+    "title": "Book a Service",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "service": "Service Type",
+    "guitar_type": "Guitar Type",
+    "description": "Describe the issue",
+    "preferred_date": "Preferred Date",
+    "submit": "Submit Request",
+    "success": "Booking received! We will contact you soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Business Hours",
+    "hours_value": "Mon – Sat: 9:00 AM – 6:00 PM"
+  },
+  "chat": {
+    "placeholder": "Ask about services, pricing...",
+    "title": "Online Support"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  }
+}

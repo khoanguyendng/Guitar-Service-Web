@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "booking": "Đặt lịch",
+    "gallery": "Thư viện",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "title": "Dịch vụ sửa chữa & bảo dưỡng Guitar chuyên nghiệp",
+    "subtitle": "Mang đến âm thanh hoàn hảo cho cây đàn của bạn",
+    "cta_booking": "Đặt lịch ngay",
+    "cta_services": "Xem dịch vụ"
+  },
+  "services": {
+    "title": "Dịch vụ của chúng tôi",
+    "setup": "Setup & Điều chỉnh",
+    "setup_desc": "Điều chỉnh action, intonation, và pickup cho âm thanh tối ưu",
+    "repair": "Sửa chữa",
+    "repair_desc": "Sửa fret, nut, saddle, tuning machines và các bộ phận khác",
+    "restoration": "Phục hồi",
+    "restoration_desc": "Phục hồi đàn cổ về trạng thái nguyên bản",
+    "electronics": "Điện tử",
+    "electronics_desc": "Sửa pickup, jack, potentiometer và mạch điện"
+  },
+  "booking": {
+    "title": "Đặt lịch dịch vụ",
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "service": "Loại dịch vụ",
+    "guitar_type": "Loại đàn",
+    "description": "Mô tả vấn đề",
+    "preferred_date": "Ngày mong muốn",
+    "submit": "Gửi yêu cầu",
+    "success": "Đặt lịch thành công! Chúng tôi sẽ liên hệ sớm.",
+    "error": "Có lỗi xảy ra. Vui lòng thử lại."
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "address": "Địa chỉ",
+    "phone": "Điện thoại",
+    "email": "Email",
+    "hours": "Giờ làm việc",
+    "hours_value": "Thứ 2 – Thứ 7: 9:00 – 18:00"
+  },
+  "chat": {
+    "placeholder": "Hỏi về dịch vụ, giá cả...",
+    "title": "Hỗ trợ trực tuyến"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Có lỗi xảy ra",
+    "back": "Quay lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận"
+  }
+}
