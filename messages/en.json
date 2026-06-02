@@ -213,6 +213,54 @@
     "submit": "Sign In",
     "error": "Invalid email or password"
   },
+  "philosophy": {
+    "badge": "Our Philosophy",
+    "quote": "A good guitar is one with action suited to the playing style, excellent playability, and aesthetics that match its owner.",
+    "description": "We believe every guitar holds untapped potential. Our craft is unlocking it — through patient assessment, precise adjustment, and a deep respect for each instrument's unique character.",
+    "action": "Action",
+    "action_desc": "Perfect string height for effortless playing",
+    "playability": "Playability",
+    "playability_desc": "Smooth response across every fret",
+    "tone": "Tone",
+    "tone_desc": "Resonance and sustain brought to full life",
+    "aesthetics": "Aesthetics",
+    "aesthetics_desc": "Beauty and craft in every finish"
+  },
+  "instruments": {
+    "badge": "Instruments We Serve",
+    "title": "Built for Every Guitar",
+    "electric": "Electric Guitar",
+    "electric_desc": "Action, intonation, fret levelling, pickup height optimisation, and complete electronics service.",
+    "acoustic": "Acoustic Guitar",
+    "acoustic_desc": "Nut & saddle setup, neck relief adjustment, bridge reshaping, and humidity care guidance.",
+    "bass": "Bass Guitar",
+    "bass_desc": "Low-action optimisation, truss rod adjustment, string height and pickup balance for deep tone.",
+    "classical": "Classical Guitar",
+    "classical_desc": "Nylon-string specific action setup, neck angle correction, and fingerboard dressing."
+  },
+  "warranty": {
+    "badge": "30-Day Guarantee",
+    "title": "Satisfaction Guaranteed on Every Service",
+    "description": "If your guitar's playability changes within 30 days of our work, we will re-adjust at no extra cost. Seasonal humidity changes excluded.",
+    "learn_more": "Full terms →"
+  },
+  "video": {
+    "badge": "See Our Work",
+    "title": "Watch the Craft",
+    "subtitle": "A glimpse into the precision and care that goes into every guitar we touch.",
+    "caption": "Real setup process · 60–90 seconds",
+    "hint": "Video coming soon — check back shortly"
+  },
+  "booking_cta": {
+    "badge": "Ready?",
+    "title": "Your Guitar Deserves This",
+    "subtitle": "Book a service today and experience the difference professional setup makes to tone, feel, and playability.",
+    "cta_book": "Book Appointment",
+    "cta_services": "View Services",
+    "trust1": "30 Day Warranty",
+    "trust2": "24h Turnaround",
+    "trust3": "Free Assessment"
+  },
   "faq": {
     "badge": "FAQ",
     "title": "Frequently Asked Questions",

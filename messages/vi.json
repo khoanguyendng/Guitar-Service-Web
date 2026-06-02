@@ -223,6 +223,54 @@
     "submit": "Đăng nhập",
     "error": "Email hoặc mật khẩu không đúng"
   },
+  "philosophy": {
+    "badge": "Triết lý của chúng tôi",
+    "quote": "Một cây đàn tốt là cây đàn có action phù hợp với phong cách chơi, khả năng chơi xuất sắc và thẩm mỹ phù hợp với chủ nhân.",
+    "description": "Chúng tôi tin rằng mỗi cây đàn đều có tiềm năng chưa được khai phá. Nghề của chúng tôi là mở khóa điều đó — qua việc đánh giá kiên nhẫn, điều chỉnh chính xác và tôn trọng sâu sắc cá tính riêng của từng nhạc cụ.",
+    "action": "Action",
+    "action_desc": "Chiều cao dây lý tưởng để chơi không mệt mỏi",
+    "playability": "Khả năng chơi",
+    "playability_desc": "Phản hồi mượt mà trên từng phím đàn",
+    "tone": "Âm sắc",
+    "tone_desc": "Cộng hưởng và sustain được phát huy tối đa",
+    "aesthetics": "Thẩm mỹ",
+    "aesthetics_desc": "Vẻ đẹp và tay nghề trong từng chi tiết hoàn thiện"
+  },
+  "instruments": {
+    "badge": "Nhạc cụ chúng tôi phục vụ",
+    "title": "Dành cho mọi loại đàn",
+    "electric": "Guitar Điện",
+    "electric_desc": "Action, intonation, mài fret, tối ưu chiều cao pickup và dịch vụ điện tử toàn diện.",
+    "acoustic": "Guitar Acoustic",
+    "acoustic_desc": "Setup nut & saddle, điều chỉnh neck relief, tạo hình lại bridge và hướng dẫn bảo quản độ ẩm.",
+    "bass": "Guitar Bass",
+    "bass_desc": "Tối ưu action thấp, điều chỉnh truss rod, chiều cao dây và cân bằng pickup cho âm trầm sâu.",
+    "classical": "Guitar Classic",
+    "classical_desc": "Setup action đặc thù cho dây nylon, chỉnh góc cổ đàn và mài fingerboard."
+  },
+  "warranty": {
+    "badge": "Bảo hành 30 ngày",
+    "title": "Đảm bảo sự hài lòng trên mọi dịch vụ",
+    "description": "Nếu khả năng chơi đàn thay đổi trong vòng 30 ngày sau khi chúng tôi thực hiện, chúng tôi sẽ điều chỉnh lại miễn phí. Không áp dụng cho thay đổi do thời tiết và độ ẩm.",
+    "learn_more": "Xem điều khoản →"
+  },
+  "video": {
+    "badge": "Xem công việc của chúng tôi",
+    "title": "Chứng kiến nghề thủ công",
+    "subtitle": "Một cái nhìn về sự tỉ mỉ và tận tâm trong từng cây đàn chúng tôi chạm vào.",
+    "caption": "Quy trình setup thực tế · 60–90 giây",
+    "hint": "Video sắp ra mắt — quay lại sớm nhé"
+  },
+  "booking_cta": {
+    "badge": "Sẵn sàng chưa?",
+    "title": "Cây đàn của bạn xứng đáng hơn thế",
+    "subtitle": "Đặt lịch ngay hôm nay và cảm nhận sự khác biệt mà setup chuyên nghiệp mang lại cho âm sắc và cảm giác chơi.",
+    "cta_book": "Đặt lịch ngay",
+    "cta_services": "Xem dịch vụ",
+    "trust1": "30 Ngày bảo hành",
+    "trust2": "24h Hoàn thành",
+    "trust3": "Miễn phí Kiểm tra"
+  },
   "faq": {
     "badge": "FAQ",
     "title": "Câu hỏi thường gặp",
