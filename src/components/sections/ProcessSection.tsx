@@ -9,51 +9,66 @@ export function ProcessSection() {
 
   return (
     <section className="py-24 sm:py-32 bg-background relative overflow-hidden">
-      {/* Retro background decoration */}
-      <div className="absolute inset-0 opacity-[0.015] dark:opacity-[0.03]"
-        style={{ backgroundImage: "radial-gradient(circle, currentColor 1px, transparent 1px)", backgroundSize: "40px 40px" }}
-      />
+      {/* Dot-grid background */}
+      <div className="absolute inset-0 opacity-[0.018]"
+        style={{ backgroundImage: "radial-gradient(circle, currentColor 1px, transparent 1px)", backgroundSize: "32px 32px" }} />
+
+      {/* Amber glow center */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_50%,rgba(180,83,9,0.05),transparent)]" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section header */}
+        {/* Header */}
         <div className="text-center mb-20">
-          <p className="font-mono text-[10px] tracking-[0.4em] uppercase text-secondary mb-4">
+          <p className="font-mono text-[10px] tracking-[0.45em] uppercase text-secondary mb-4">
             — {t("badge")} —
           </p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-foreground mb-5">
+          <h2 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-foreground mb-5">
             {t("title")}
           </h2>
-          <div className="retro-divider mx-auto w-40 my-5">
+          <div className="flex items-center justify-center gap-4 my-5">
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-secondary/50" />
             <span className="text-secondary text-sm">◆</span>
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-secondary/50" />
           </div>
-          <p className="text-muted-foreground max-w-lg mx-auto leading-relaxed italic font-heading">
+          <p className="text-muted-foreground max-w-md mx-auto leading-relaxed italic font-heading text-lg">
             {t("subtitle")}
           </p>
         </div>
 
         {/* Steps */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
-          {/* Connecting line (desktop) */}
-          <div className="hidden lg:block absolute top-12 left-[12.5%] right-[12.5%] h-px bg-border" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 relative">
+          {/* Connecting line (lg only) */}
+          <div className="hidden lg:block absolute top-[3.25rem] left-[12.5%] right-[12.5%] h-px bg-gradient-to-r from-transparent via-border to-transparent z-0" />
 
           {STEPS.map((step, i) => {
             const Icon = ICONS[i];
             return (
-              <div key={step} className="relative flex flex-col items-center text-center">
-                {/* Number badge */}
-                <div className="relative mb-6 z-10">
-                  <div className="w-24 h-24 rounded-full border-2 border-border bg-background flex items-center justify-center group hover:border-secondary/60 transition-colors">
-                    <span className="font-heading text-3xl text-muted-foreground/30 absolute top-2 right-4 leading-none select-none">
-                      {t(`${step}_num`)}
+              <div key={step} className="relative flex flex-col items-center text-center group px-4">
+                {/* Step badge */}
+                <div className="relative z-10 mb-7">
+                  {/* Outer ring */}
+                  <div className="w-[6.5rem] h-[6.5rem] rounded-full border border-border group-hover:border-secondary/50 bg-background transition-all duration-300 flex items-center justify-center relative">
+                    {/* Inner circle */}
+                    <div className="w-16 h-16 rounded-full border border-border/50 group-hover:border-secondary/30 group-hover:bg-secondary/5 flex items-center justify-center transition-all duration-300">
+                      <Icon className="w-6 h-6 text-muted-foreground group-hover:text-secondary transition-colors duration-300" />
+                    </div>
+                    {/* Step number — top right */}
+                    <span className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-background border border-border flex items-center justify-center font-mono text-[10px] font-bold text-secondary">
+                      {i + 1}
                     </span>
-                    <Icon className="w-7 h-7 text-secondary/70" />
                   </div>
                 </div>
 
-                <h3 className="font-heading text-xl text-foreground mb-3">
-                  {t(step)}
-                </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed max-w-[220px]">
+                {/* Large number watermark */}
+                <div className="relative mb-2">
+                  <span className="font-heading font-black text-[4rem] leading-none text-border/25 select-none absolute -top-2 left-1/2 -translate-x-1/2 pointer-events-none">
+                    {t(`${step}_num`)}
+                  </span>
+                  <h3 className="font-heading text-xl text-foreground group-hover:text-primary transition-colors duration-300 relative pt-4">
+                    {t(step)}
+                  </h3>
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed max-w-[200px]">
                   {t(`${step}_desc`)}
                 </p>
               </div>
