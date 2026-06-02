@@ -1,12 +1,19 @@
-import { useTranslations } from "next-intl";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ServicesSection } from "@/components/sections/ServicesSection";
+import { AboutSection } from "@/components/sections/AboutSection";
+import { ProcessSection } from "@/components/sections/ProcessSection";
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
+import { ContactSection } from "@/components/sections/ContactSection";
 
 export default function HomePage() {
-  const t = useTranslations("hero");
-
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold text-center">{t("title")}</h1>
-      <p className="mt-4 text-lg text-muted-foreground text-center">{t("subtitle")}</p>
-    </main>
+    <>
+      <HeroSection />
+      <ServicesSection />
+      <AboutSection />
+      <ProcessSection />
+      <TestimonialsSection />
+      <ContactSection />
+    </>
   );
 }

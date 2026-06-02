@@ -8,21 +8,109 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Professional Guitar Repair & Setup Service",
-    "subtitle": "Bringing the perfect sound back to your instrument",
+    "badge": "Est. 2000 · Hanoi, Vietnam",
+    "line1": "Master Guitar",
+    "line2": "Craftsman",
+    "subtitle": "Over 20 years breathing perfect sound back into every instrument",
     "cta_booking": "Book Appointment",
-    "cta_services": "Our Services"
+    "cta_services": "Our Services",
+    "scroll": "Scroll down"
   },
   "services": {
+    "badge": "Professional",
     "title": "Our Services",
+    "subtitle": "Every instrument treated with the care of a fine work of art",
+    "from": "From",
     "setup": "Setup & Adjustment",
-    "setup_desc": "Action, intonation, and pickup adjustment for optimal tone",
-    "repair": "Repair",
-    "repair_desc": "Fret, nut, saddle, tuning machine and component repairs",
-    "restoration": "Restoration",
-    "restoration_desc": "Restore vintage instruments to original condition",
-    "electronics": "Electronics",
-    "electronics_desc": "Pickup, jack, potentiometer and wiring repairs"
+    "setup_desc": "Action, intonation and pickup adjustment for the finest tone possible.",
+    "setup_price": "200,000₫",
+    "repair": "General Repair",
+    "repair_desc": "Fret, nut, saddle, tuning machine and all mechanical component repairs.",
+    "repair_price": "150,000₫",
+    "restoration": "Vintage Restoration",
+    "restoration_desc": "Bringing vintage instruments back to their original pristine condition.",
+    "restoration_price": "2,000,000₫",
+    "electronics": "Electronics & Pickups",
+    "electronics_desc": "Pickup replacement, jack, potentiometer and complete wiring repairs.",
+    "electronics_price": "150,000₫",
+    "view_all": "View all services"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "Passion & Craft",
+    "subtitle": "More than two decades serving music lovers",
+    "description": "Founded in 2000, Guitar Service was born from a pure love of music and the art of fine craftsmanship. We believe every guitar has a story, and our mission is to help those stories continue to resound.",
+    "description2": "From soulful blues to fiery flamenco, we have accompanied thousands of artists on their journey to rediscovering perfect sound.",
+    "years": "20+",
+    "years_label": "Years of Experience",
+    "guitars": "5,000+",
+    "guitars_label": "Guitars Restored",
+    "satisfaction": "99%",
+    "satisfaction_label": "Customer Satisfaction",
+    "masters": "4",
+    "masters_label": "Master Craftsmen"
+  },
+  "process": {
+    "badge": "Our Process",
+    "title": "How We Work",
+    "subtitle": "Transparent, professional process from start to finish",
+    "step1_num": "01",
+    "step1": "Drop Off",
+    "step1_desc": "Bring your guitar to the workshop. We inspect it thoroughly and discuss the issues together.",
+    "step2_num": "02",
+    "step2": "Diagnose",
+    "step2_desc": "Detailed assessment of the instrument's condition and planning the optimal repair approach.",
+    "step3_num": "03",
+    "step3": "Craft",
+    "step3_desc": "Meticulous handcraft with premium materials, delivered on time as promised.",
+    "step4_num": "04",
+    "step4": "Pick Up",
+    "step4_desc": "Final inspection together, care instructions provided, and your guitar goes home singing."
+  },
+  "testimonials": {
+    "badge": "Client Stories",
+    "title": "Words from Our Clients",
+    "subtitle": "Our clients' joy is the measure of our success",
+    "t1_name": "Minh Tuan Nguyen",
+    "t1_guitar": "Taylor 314ce",
+    "t1_content": "Outstanding! My Taylor now sounds better than when it was new. The team is incredibly professional and dedicated.",
+    "t2_name": "Thu Huong Tran",
+    "t2_guitar": "Gibson Les Paul",
+    "t2_content": "Had the pickup replaced and action adjusted on my Les Paul. The result exceeded all expectations. Will definitely return.",
+    "t3_name": "Duc Anh Le",
+    "t3_guitar": "Martin D-28 (1975)",
+    "t3_content": "Completely restored my 50-year-old vintage Martin. They achieved the impossible, respecting every tiny detail."
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Find Us",
+    "subtitle": "We are always ready to listen and support you",
+    "address_label": "Address",
+    "address": "123 Pho Hue St., Hai Ba Trung, Hanoi",
+    "phone_label": "Phone",
+    "phone": "0901 234 567",
+    "email_label": "Email",
+    "email": "hello@guitarservice.vn",
+    "hours_label": "Business Hours",
+    "hours": "Mon – Sat: 9:00 AM – 6:00 PM",
+    "cta": "Book Appointment",
+    "zalo": "Message on Zalo"
+  },
+  "footer": {
+    "tagline": "Reviving sound — Preserving passion",
+    "nav_title": "Navigation",
+    "services_title": "Services",
+    "contact_title": "Contact",
+    "service_setup": "Setup & Adjustment",
+    "service_repair": "Repair",
+    "service_restoration": "Restoration",
+    "service_electronics": "Electronics",
+    "copyright": "© 2025 Guitar Service. All rights reserved.",
+    "made_with": "Made with love for music"
+  },
+  "chat": {
+    "placeholder": "Ask about services, pricing...",
+    "title": "Online Support"
   },
   "booking": {
     "title": "Book a Service",
@@ -36,18 +124,6 @@
     "submit": "Submit Request",
     "success": "Booking received! We will contact you soon.",
     "error": "Something went wrong. Please try again."
-  },
-  "contact": {
-    "title": "Contact Us",
-    "address": "Address",
-    "phone": "Phone",
-    "email": "Email",
-    "hours": "Business Hours",
-    "hours_value": "Mon – Sat: 9:00 AM – 6:00 PM"
-  },
-  "chat": {
-    "placeholder": "Ask about services, pricing...",
-    "title": "Online Support"
   },
   "common": {
     "loading": "Loading...",
