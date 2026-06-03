@@ -3,9 +3,9 @@ import { Link } from "@/lib/navigation";
 import { Settings, Wrench, Sparkles, Zap, ArrowRight } from "lucide-react";
 
 const ICONS = [Settings, Wrench, Sparkles, Zap];
-const SERVICES = ["setup", "repair", "restoration", "electronics"] as const;
-const PRICES  = ["setup_price", "repair_price", "restoration_price", "electronics_price"] as const;
-const DURATIONS = ["1–2 ngày", "3–5 ngày", "2–4 tuần", "1–2 ngày"];
+const SERVICES  = ["setup", "repair", "restoration", "electronics"] as const;
+const PRICES    = ["setup_price", "repair_price", "restoration_price", "electronics_price"] as const;
+const DURATIONS = ["setup_duration", "repair_duration", "restoration_duration", "electronics_duration"] as const;
 
 export function ServicesSection() {
   const t = useTranslations("services");
@@ -75,7 +75,7 @@ export function ServicesSection() {
                     </p>
                   </div>
                   <span className="text-[9px] font-mono tracking-widest uppercase text-muted-foreground/50 bg-muted px-2 py-1">
-                    {DURATIONS[i]}
+                    {t(DURATIONS[i])}
                   </span>
                 </div>
               </div>

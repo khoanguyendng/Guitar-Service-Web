@@ -33,7 +33,15 @@
     "electronics": "Điện tử & Pickup",
     "electronics_desc": "Thay thế pickup, sửa jack, potentiometer và toàn bộ mạch điện.",
     "electronics_price": "150.000₫",
-    "view_all": "Xem tất cả dịch vụ"
+    "view_all": "Xem tất cả dịch vụ",
+    "setup_duration": "1–2 ngày",
+    "repair_duration": "3–5 ngày",
+    "restoration_duration": "2–4 tuần",
+    "electronics_duration": "1–2 ngày",
+    "duration_label": "Thời gian",
+    "cta_badge": "Sẵn sàng bắt đầu",
+    "cta_title": "Đặt lịch dịch vụ ngay hôm nay",
+    "cta_button": "Đặt lịch ngay"
   },
   "about": {
     "badge": "Câu chuyện của chúng tôi",
@@ -93,6 +101,10 @@
     "email": "hello@guitarservice.vn",
     "hours_label": "Giờ làm việc",
     "hours": "Thứ 2 – Chủ Nhật: 18:00 – 22:00",
+    "sunday_hours": "Chủ nhật: Nghỉ",
+    "info_section": "Thông tin",
+    "info_title": "Tìm chúng tôi",
+    "map_section": "Bản đồ",
     "cta": "Đặt lịch ngay",
     "zalo": "Nhắn Zalo"
   },
@@ -113,7 +125,14 @@
     "title": "Hỗ trợ trực tuyến"
   },
   "booking": {
+    "badge": "Đặt lịch",
     "title": "Đặt lịch dịch vụ",
+    "subtitle": "Điền thông tin bên dưới để đặt lịch. Chúng tôi sẽ liên hệ xác nhận trong vòng 24 giờ.",
+    "form_section": "Thông tin đặt lịch",
+    "form_heading": "Điền thông tin của bạn",
+    "contact_section": "Thông tin liên hệ",
+    "turnaround_title": "Thời gian hoàn thành",
+    "turnaround_text": "Setup cơ bản: 1–2 ngày. Sửa chữa tổng quát: 3–5 ngày. Phục hồi đàn cổ: 2–4 tuần.",
     "name": "Họ và tên",
     "phone": "Số điện thoại",
     "email": "Email",

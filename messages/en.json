@@ -33,7 +33,15 @@
     "electronics": "Electronics & Pickups",
     "electronics_desc": "Pickup replacement, jack, potentiometer and complete wiring repairs.",
     "electronics_price": "150,000₫",
-    "view_all": "View all services"
+    "view_all": "View all services",
+    "setup_duration": "1–2 days",
+    "repair_duration": "3–5 days",
+    "restoration_duration": "2–4 weeks",
+    "electronics_duration": "1–2 days",
+    "duration_label": "Turnaround",
+    "cta_badge": "Ready?",
+    "cta_title": "Book a Service Today",
+    "cta_button": "Book Now"
   },
   "about": {
     "badge": "Our Story",
@@ -93,6 +101,10 @@
     "email": "hello@guitarservice.vn",
     "hours_label": "Business Hours",
     "hours": "Mon – Sat: 9:00 AM – 6:00 PM",
+    "sunday_hours": "Sunday: Closed",
+    "info_section": "Contact Info",
+    "info_title": "Find Us",
+    "map_section": "Location",
     "cta": "Book Appointment",
     "zalo": "Message on Zalo"
   },
@@ -113,7 +125,14 @@
     "title": "Online Support"
   },
   "booking": {
+    "badge": "Book Now",
     "title": "Book a Service",
+    "subtitle": "Fill in the details below to request a service. We will contact you to confirm within 24 hours.",
+    "form_section": "Booking Info",
+    "form_heading": "Your Details",
+    "contact_section": "Contact Info",
+    "turnaround_title": "Turnaround Times",
+    "turnaround_text": "Basic setup: 1–2 days. General repairs: 3–5 days. Vintage restoration: 2–4 weeks.",
     "name": "Full Name",
     "phone": "Phone Number",
     "email": "Email",

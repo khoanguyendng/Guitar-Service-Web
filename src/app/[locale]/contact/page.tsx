@@ -24,10 +24,10 @@ export default function ContactPage() {
             {/* Left: Contact Info */}
             <div>
               <p className="font-mono text-[10px] tracking-[0.4em] uppercase text-secondary mb-4">
-                — Thông tin —
+                — {tContact("info_section")} —
               </p>
               <h2 className="font-heading text-2xl text-foreground mb-8">
-                Tìm chúng tôi
+                {tContact("info_title")}
               </h2>
 
               <div className="space-y-4">
@@ -90,7 +90,7 @@ export default function ContactPage() {
                       {tContact("hours_label")}
                     </p>
                     <p className="text-sm text-foreground">{tContact("hours")}</p>
-                    <p className="text-xs text-muted-foreground mt-0.5">Chủ nhật: Nghỉ</p>
+                    <p className="text-xs text-muted-foreground mt-0.5">{tContact("sunday_hours")}</p>
                   </div>
                 </div>
 
@@ -138,7 +138,7 @@ export default function ContactPage() {
       <section className="py-16 bg-card border-t border-border">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="font-mono text-[10px] tracking-[0.4em] uppercase text-secondary mb-6 text-center">
-            — Bản đồ —
+            — {tContact("map_section")} —
           </p>
           <div className="relative h-64 sm:h-80 border border-border bg-muted overflow-hidden">
             {/* CSS grid lines */}

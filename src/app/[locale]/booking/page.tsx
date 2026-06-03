@@ -12,9 +12,9 @@ export default function BookingPage() {
     <>
       <Toaster richColors position="top-right" />
       <PageHero
-        badge="Đặt lịch"
+        badge={t("badge")}
         title={t("title")}
-        subtitle="Điền thông tin bên dưới để đặt lịch. Chúng tôi sẽ liên hệ xác nhận trong vòng 24 giờ."
+        subtitle={t("subtitle")}
       />
 
       <section className="py-20 bg-background">
@@ -24,10 +24,10 @@ export default function BookingPage() {
             <div className="lg:col-span-3">
               <div className="mb-8">
                 <p className="font-mono text-[10px] tracking-[0.4em] uppercase text-secondary mb-2">
-                  — Thông tin đặt lịch —
+                  — {t("form_section")} —
                 </p>
                 <h2 className="font-heading text-2xl text-foreground">
-                  Điền thông tin của bạn
+                  {t("form_heading")}
                 </h2>
               </div>
               <div className="border border-border bg-card p-8">
@@ -40,7 +40,7 @@ export default function BookingPage() {
               {/* Contact Info */}
               <div>
                 <p className="font-mono text-[10px] tracking-[0.4em] uppercase text-secondary mb-4">
-                  — Thông tin liên hệ —
+                  — {t("contact_section")} —
                 </p>
 
                 {/* Address */}
@@ -101,13 +101,10 @@ export default function BookingPage() {
               {/* Turnaround note */}
               <div className="border border-secondary/30 bg-secondary/5 p-5">
                 <p className="text-[10px] font-mono tracking-widest uppercase text-secondary mb-2">
-                  ◆ Lưu ý về thời gian
+                  ◆ {t("turnaround_title")}
                 </p>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Thời gian hoàn thành phụ thuộc vào loại dịch vụ. Setup thường xong trong{" "}
-                  <span className="text-foreground font-medium">1–2 ngày</span>. Sửa chữa tổng quát
-                  mất <span className="text-foreground font-medium">3–5 ngày</span>. Phục hồi đàn cổ
-                  có thể cần <span className="text-foreground font-medium">2–4 tuần</span>.
+                  {t("turnaround_text")}
                 </p>
               </div>
             </div>

@@ -42,8 +42,8 @@ export function Header() {
           <div className="w-8 h-8 rounded-full border border-primary/40 flex items-center justify-center bg-primary/10 group-hover:bg-primary/20 transition-colors">
             <Music2 className="w-4 h-4 text-primary" />
           </div>
-          <span className="font-heading text-xl text-foreground tracking-wide">
-            Guitar<span className="text-primary"> Service</span>
+          <span className={cn("font-heading text-xl tracking-wide", scrolled ? "text-foreground" : "text-amber-50")}>
+            Guitar<span className={scrolled ? "text-primary" : "text-amber-400"}> Service</span>
           </span>
         </Link>
 
