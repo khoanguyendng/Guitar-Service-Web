@@ -34,7 +34,7 @@ export function Step4Contact({ data, update, onNext, onBack }: Props) {
             type="text"
             value={data.name}
             onChange={e => update({ name: e.target.value })}
-            placeholder="Nguyễn Văn A"
+            placeholder={t("name_placeholder")}
             className="w-full border border-border bg-background px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/50 focus:outline-none focus:border-secondary/60 transition-colors"
           />
         </div>
