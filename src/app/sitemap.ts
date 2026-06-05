@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blog-data";
 
-const BASE_URL = "https://guitarservice.vn";
+const BASE_URL = "https://torigo.com";
 const LOCALES = ["en", "vi"];
 
 export default function sitemap(): MetadataRoute.Sitemap {

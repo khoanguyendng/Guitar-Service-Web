@@ -84,7 +84,7 @@ export async function POST(request: NextRequest) {
 
     // 3. Send emails
     const resendKey  = process.env.RESEND_API_KEY;
-    const fromEmail  = process.env.RESEND_FROM_EMAIL || "noreply@guitarservice.vn";
+    const fromEmail  = process.env.RESEND_FROM_EMAIL || "noreply@torigo.com";
     const adminEmail = process.env.ADMIN_EMAIL;
 
     if (resendKey) {
@@ -111,9 +111,9 @@ export async function POST(request: NextRequest) {
         resend.emails.send({
           from:    fromEmail,
           to:      data.email,
-          subject: "Guitar Service — Booking Received ✓",
+          subject: "Torigo — Booking Received ✓",
           html: `<div style="font-family:Georgia,serif;max-width:520px;margin:0 auto;padding:40px 20px;color:#1c1917">
-            <h2 style="font-size:22px;margin-bottom:8px">Guitar Service</h2>
+            <h2 style="font-size:22px;margin-bottom:8px">Torigo</h2>
             <p style="font-size:14px;color:#78716c;margin-bottom:0">Your booking has been received</p>
             <hr style="border:none;border-top:1px solid #e7e5e4;margin:20px 0"/>
             <p style="font-size:15px;line-height:1.6">Hi <strong>${data.name}</strong>,</p>
@@ -125,7 +125,7 @@ export async function POST(request: NextRequest) {
               <p style="font-size:13px;color:#92400e;margin:0">🛡 All services include a <strong>30-day satisfaction guarantee</strong>.</p>
             </div>
             <hr style="border:none;border-top:1px solid #e7e5e4;margin:24px 0"/>
-            <p style="font-size:12px;color:#a8a29e">Guitar Service · 123 Phố Huế, Hà Nội · 0901 234 567</p>
+            <p style="font-size:12px;color:#a8a29e">Torigo · 123 Phố Huế, Hà Nội · 0901 234 567</p>
           </div>`,
         }),
       ]);

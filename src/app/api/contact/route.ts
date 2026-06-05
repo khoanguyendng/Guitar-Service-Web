@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
 
     // 2. Send admin notification
     const resendKey = process.env.RESEND_API_KEY;
-    const fromEmail = process.env.RESEND_FROM_EMAIL || "noreply@guitarservice.vn";
+    const fromEmail = process.env.RESEND_FROM_EMAIL || "noreply@torigo.com";
     const adminEmail = process.env.ADMIN_EMAIL;
 
     if (resendKey && adminEmail) {
@@ -43,16 +43,16 @@ export async function POST(request: NextRequest) {
         resend.emails.send({
           from:    fromEmail,
           to:      data.email,
-          subject: "Guitar Service — We received your message",
+          subject: "Torigo — We received your message",
           html: `<div style="font-family:Georgia,serif;max-width:520px;margin:0 auto;padding:40px 20px;color:#1c1917">
-            <h2 style="font-size:20px;margin-bottom:8px">Guitar Service</h2>
+            <h2 style="font-size:20px;margin-bottom:8px">Torigo</h2>
             <hr style="border:none;border-top:1px solid #e7e5e4;margin:16px 0"/>
             <p style="font-size:15px;line-height:1.6">Hi <strong>${data.name}</strong>,</p>
             <p style="font-size:15px;line-height:1.6">
               Thank you for reaching out. We have received your message and will get back to you shortly.
             </p>
             <hr style="border:none;border-top:1px solid #e7e5e4;margin:24px 0"/>
-            <p style="font-size:12px;color:#a8a29e">Guitar Service · 123 Phố Huế, Hà Nội · hello@guitarservice.vn</p>
+            <p style="font-size:12px;color:#a8a29e">Torigo · 123 Phố Huế, Hà Nội · hello@torigo.com</p>
           </div>`,
         }),
       ]);

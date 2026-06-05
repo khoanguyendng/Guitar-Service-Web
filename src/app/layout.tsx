@@ -25,8 +25,8 @@ const specialElite = Special_Elite({
 
 export const metadata: Metadata = {
   title: {
-    default: "Guitar Service | Master Guitar Craftsman",
-    template: "%s | Guitar Service",
+    default: "Torigo | Master Guitar Craftsman",
+    template: "%s | Torigo",
   },
   description:
     "Professional guitar repair, setup & restoration in Hanoi. Over 20 years of expertise.",

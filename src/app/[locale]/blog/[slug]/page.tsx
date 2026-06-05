@@ -52,7 +52,7 @@ export default async function BlogPostPage({ params }: Props) {
     headline: title,
     datePublished: post.published_at,
     dateModified: post.updated_at,
-    author: { "@type": "Organization", name: "Guitar Service" },
+    author: { "@type": "Organization", name: "Torigo" },
   };
 
   return (

@@ -30,7 +30,7 @@ export async function PATCH(
 
     // Send email notification to customer on status change
     const resendKey = process.env.RESEND_API_KEY;
-    const fromEmail = process.env.RESEND_FROM_EMAIL || "noreply@guitarservice.vn";
+    const fromEmail = process.env.RESEND_FROM_EMAIL || "noreply@torigo.com";
     if (resendKey && data?.email && status !== "pending") {
       try {
         const resend = new Resend(resendKey);
@@ -45,16 +45,16 @@ export async function PATCH(
           await resend.emails.send({
             from:    fromEmail,
             to:      data.email,
-            subject: `Guitar Service — ${msg.subject}`,
+            subject: `Torigo — ${msg.subject}`,
             html: `
               <div style="font-family: Georgia, serif; max-width: 520px; margin: 0 auto; padding: 40px 20px; color: #1c1917;">
-                <h2 style="font-size: 22px; margin-bottom: 8px;">Guitar Service</h2>
+                <h2 style="font-size: 22px; margin-bottom: 8px;">Torigo</h2>
                 <hr style="border: none; border-top: 1px solid #e7e5e4; margin: 16px 0;" />
                 <p style="font-size: 15px; line-height: 1.6;">Hi ${data.name},</p>
                 <p style="font-size: 15px; line-height: 1.6;">${msg.body}</p>
                 <p style="font-size: 13px; color: #78716c; margin-top: 24px;">Booking ID: ${id.slice(0, 8).toUpperCase()}</p>
                 <hr style="border: none; border-top: 1px solid #e7e5e4; margin: 24px 0;" />
-                <p style="font-size: 12px; color: #a8a29e;">123 Phố Huế, Hai Bà Trưng, Hà Nội · 0901 234 567 · hello@guitarservice.vn</p>
+                <p style="font-size: 12px; color: #a8a29e;">123 Phố Huế, Hai Bà Trưng, Hà Nội · 0901 234 567 · hello@torigo.com</p>
               </div>
             `,
           });

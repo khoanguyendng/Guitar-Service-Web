@@ -88,7 +88,7 @@ export default async function MessagesPage() {
 
               {/* Reply */}
               <a
-                href={`mailto:${msg.email}?subject=Re: Guitar Service`}
+                href={`mailto:${msg.email}?subject=Re: Torigo`}
                 className="shrink-0 px-4 py-2 border border-secondary/30 text-secondary text-[9px] font-mono tracking-[0.2em] uppercase hover:bg-secondary/10 transition-colors"
               >
                 Reply

@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin", "/login", "/api/"],
       },
     ],
-    sitemap: "https://guitarservice.vn/sitemap.xml",
+    sitemap: "https://torigo.com/sitemap.xml",
   };
 }

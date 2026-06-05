@@ -43,7 +43,7 @@ export function AdminSidebar({ locale }: Props) {
           <Music2 className="w-3.5 h-3.5 text-amber-400" />
         </div>
         <div>
-          <p className="font-heading text-sm text-amber-50 leading-tight">Guitar Service</p>
+          <p className="font-heading text-sm text-amber-50 leading-tight">Torigo</p>
           <p className="font-mono text-[8px] tracking-[0.25em] uppercase text-stone-500">Admin Panel</p>
         </div>
       </div>

@@ -19,7 +19,7 @@ export function Footer() {
               <div className="w-8 h-8 rounded-full border border-background/20 flex items-center justify-center">
                 <Music2 className="w-4 h-4 opacity-80" />
               </div>
-              <span className="font-heading text-xl tracking-wide">Guitar Service</span>
+              <span className="font-heading text-xl tracking-wide">Torigo</span>
             </div>
             <p className="text-sm opacity-60 leading-relaxed italic font-heading">
               &ldquo;{t("tagline")}&rdquo;

@@ -64,7 +64,7 @@ export default function LoginPage() {
           {/* Logo/Header */}
           <div className="text-center mb-8">
             <p className="font-mono text-[9px] tracking-[0.4em] uppercase text-amber-500/60 mb-3">
-              ◆ Guitar Service ◆
+              ◆ Torigo ◆
             </p>
             <h1 className="font-heading text-2xl text-amber-50 mb-2">
               {t("title")}
@@ -95,7 +95,7 @@ export default function LoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@guitarservice.vn"
+                placeholder="admin@torigo.com"
                 required
                 className="bg-amber-950/20 border-amber-900/40 text-amber-50 placeholder:text-amber-700/40 focus-visible:ring-amber-600/50 focus-visible:border-amber-600/50"
               />

@@ -7,7 +7,7 @@ const SECTIONS = [
   {
     title: "Business Info",
     fields: [
-      { key: "site_name",    label: "Business Name",    type: "text",  placeholder: "Guitar Service" },
+      { key: "site_name",    label: "Business Name",    type: "text",  placeholder: "Torigo" },
       { key: "tagline_en",   label: "Tagline EN",        type: "text",  placeholder: "Reviving sound — Preserving passion" },
       { key: "tagline_vi",   label: "Tagline VI",        type: "text",  placeholder: "Hồi sinh âm thanh — Gìn giữ đam mê" },
       { key: "founded_year", label: "Founded Year",      type: "text",  placeholder: "2000" },
@@ -18,7 +18,7 @@ const SECTIONS = [
     title: "Contact",
     fields: [
       { key: "phone",       label: "Phone Number",  type: "text", placeholder: "0901 234 567" },
-      { key: "email",       label: "Email",         type: "email",placeholder: "hello@guitarservice.vn" },
+      { key: "email",       label: "Email",         type: "email",placeholder: "hello@torigo.com" },
       { key: "whatsapp",    label: "WhatsApp",       type: "text", placeholder: "+84901234567" },
       { key: "zalo_phone",  label: "Zalo Phone",    type: "text", placeholder: "0901234567" },
     ],
@@ -33,8 +33,8 @@ const SECTIONS = [
   {
     title: "SEO",
     fields: [
-      { key: "meta_title_en",       label: "Meta Title EN",       type: "text",  placeholder: "Guitar Service Hanoi — Expert Guitar Setup & Repair" },
-      { key: "meta_title_vi",       label: "Meta Title VI",       type: "text",  placeholder: "Guitar Service Hà Nội — Setup & Sửa Chữa Guitar" },
+      { key: "meta_title_en",       label: "Meta Title EN",       type: "text",  placeholder: "Torigo Hanoi — Expert Guitar Setup & Repair" },
+      { key: "meta_title_vi",       label: "Meta Title VI",       type: "text",  placeholder: "Torigo Hà Nội — Setup & Sửa Chữa Guitar" },
       { key: "meta_description_en", label: "Meta Description EN", type: "textarea", placeholder: "Professional guitar setup and repair in Hanoi, Vietnam..." },
       { key: "meta_description_vi", label: "Meta Description VI", type: "textarea", placeholder: "Dịch vụ setup và sửa chữa guitar chuyên nghiệp tại Hà Nội..." },
     ],
@@ -42,13 +42,13 @@ const SECTIONS = [
 ] as const;
 
 const DEFAULTS: Record<string, string> = {
-  site_name:          "Guitar Service",
+  site_name:          "Torigo",
   tagline_en:         "Reviving sound — Preserving passion",
   tagline_vi:         "Hồi sinh âm thanh — Gìn giữ đam mê",
   founded_year:       "2000",
   address:            "123 Phố Huế, Hai Bà Trưng, Hà Nội",
   phone:              "0901 234 567",
-  email:              "hello@guitarservice.vn",
+  email:              "hello@torigo.com",
   whatsapp:           "+84901234567",
   zalo_phone:         "0901234567",
   hours_en:           "Mon – Sat: 9:00 AM – 6:00 PM",
